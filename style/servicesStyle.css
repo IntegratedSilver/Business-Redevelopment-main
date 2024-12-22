@@ -1,0 +1,123 @@
+.green-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #1A2D21;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    top: -40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+.green-bar h2{
+    margin: 0px;
+}
+
+.light-green-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #0B662D;
+    height: 40px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.box-container {
+    position: relative;
+    background-color: white;
+    border: 0px solid black; 
+    padding: 40px;
+    top: -40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box-container2 {
+    position: relative;
+    background-color: white;
+    border: 0px solid black; 
+    padding: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.serviceBG {
+    min-height: 400px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../imgs/service-first-div.png");
+    object-fit: contain;
+}
+
+.serviceBG h2, p{
+    margin: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.serviceBG h2 {
+    font-size: 30px!important;
+}
+
+.serviceBG p {
+    font-size: 14px!important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    display: none;
+}
+
+.light-green-bar h2{
+    text-align: center;
+    font-size: 1.5vw;
+    color: white;
+    margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    h2 {
+      font-size: 1.8vw;
+    }
+    p,a,td,th {
+        font-size: 1.4vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: 14px;
+    }
+    p,a,td,th,li {
+          font-size: 10px;
+    }
+    .light-green-bar h2 {
+        font-size: 14px;
+    }
+    .custom-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column; 
+        margin-left: -150px;
+        margin-right: -150px;
+    }
+
+    .green-bar h2{
+        font-size: 20px!important;
+    }
+
+}
